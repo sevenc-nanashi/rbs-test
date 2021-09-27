@@ -1,6 +1,6 @@
 class HelloWorlder
   def hello_world : () -> nil
   def as_string : () -> String
-  def times : (n: Integer) -> Integer
-  def hello_to : (name: String) -> nil
+  def times : (Integer n) -> nil
+  def hello_to : (String name) -> nil
 end
